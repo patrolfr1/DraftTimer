@@ -24,7 +24,7 @@ function getCurrentChannelId(): string | undefined {
 
 function getDraft(channelId: string): string {
     try {
-        const store = findByStoreName("DraftStore") ?? findByProps("getDraft");
+        const store = findByProps("getDraft");
         const draft = store?.getDraft?.(channelId, 0);
         return typeof draft === "string" ? draft : "";
     } catch {
