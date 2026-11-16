@@ -1,0 +1,14 @@
+{
+  "name": "DraftTimer iOS",
+  "description": "Sends your non-empty Discord draft every 61 seconds while the selected channel is open and the app is active.",
+  "authors": [
+    {
+      "name": "patrolfr1",
+      "id": "75175545"
+    }
+  ],
+  "main": "index.js",
+  "vendetta": {
+    "icon": "ic_clock"
+  }
+}
